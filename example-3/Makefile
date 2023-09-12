@@ -21,4 +21,4 @@ $(RELEASE_EXEC): Kazino-Royal.cpp
 	g++ $(RELEASE_FLAGS) Kazino-Royal.cpp -o $(RELEASE_EXEC)
 
 clean:
-	del  $(RELEASE_EXEC).exe $(DEBUG_EXEC).exe
+	rm -f $(RELEASE_EXEC) $(DEBUG_EXEC)
